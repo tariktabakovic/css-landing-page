@@ -5,3 +5,15 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.showcase::after{
+    content: '';
+    height: 100vh;
+    width: 100%;
+    background-image: url(green-mountains-and-flowing-river-206660.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+}
