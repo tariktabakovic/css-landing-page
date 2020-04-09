@@ -95,3 +95,11 @@ a {
     background: #333;
     color: #f4f4f4;
 }
+
+footer {
+    padding: 2rem;
+}
+
+footer p {
+    margin: 0;
+}
